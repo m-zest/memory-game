@@ -1,0 +1,490 @@
+@media only screen and (max-width: 1440px) {
+    @import url('https://fonts.googleapis.com/css?family=Poppins');
+    html,
+    body {
+        height: 100%;
+        font-size: 16px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 10px;
+        padding: 10px;
+        font-family: 'Poppins', sans-serif;
+        text-shadow: 0.5px 0.50px 2px darkslategray;
+        color: darkslategray;
+        background-color: #e5e8e8;
+        background-image: url('../image/bg-intro-desktop.png');
+    }
+    img {
+        width: 10vw;
+        height: 15vh;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: auto repeat(4, 10vw) auto;
+        grid-template-rows: 2vh repeat(3, 15vh) 5vh;
+        height: 50vh;
+        background-color: #d7bde2;
+        padding: 10vh 5vh 10vh 5vh;
+        grid-gap: 5px;
+        opacity: 0.7;
+        border-radius: 1vw;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    }
+    .one {
+        grid-column: 2 /span 1;
+        grid-row: 2 / span 1;
+        box-shadow: 2px 2px 3px;
+    }
+    .two {
+        grid-column: 3 / span 1;
+        grid-row: 2 / span 1;
+        box-shadow: 2px 2px 3px;
+    }
+    .three {
+        grid-column: 4/ span 1;
+        grid-row: 2 / span 1;
+        box-shadow: 2px 2px 3px;
+    }
+    .four {
+        grid-column: 5 /span 1;
+        grid-row: 2 / span 1;
+        box-shadow: 2px 2px 3px;
+    }
+    .five {
+        grid-column: 2 / span 1;
+        grid-row: 3 / span 1;
+        box-shadow: 2px 2px 3px;
+    }
+    .six {
+        grid-column: 3/ span 1;
+        grid-row: 3 / span 1;
+        box-shadow: 2px 2px 3px;
+    }
+    .seven {
+        grid-column: 4 /span 1;
+        grid-row: 3 /span 1;
+        box-shadow: 2px 2px 3px;
+    }
+    .eight {
+        grid-column: 5 / span 1;
+        grid-row: 3 /span 1;
+        box-shadow: 2px 2px 3px;
+    }
+    .nine {
+        grid-column: 2/ span 1;
+        grid-row: 4 /span 1;
+        box-shadow: 2px 2px 3px;
+    }
+    .ten {
+        grid-column: 3/ span 1;
+        grid-row: 4 /span 1;
+        box-shadow: 2px 2px 3px;
+    }
+    .eleven {
+        grid-column: 4/ span 1;
+        grid-row: 4 /span 1;
+        box-shadow: 2px 2px 3px;
+    }
+    .twelve {
+        grid-column: 5/ span 1;
+        grid-row: 4 /span 1;
+        box-shadow: 2px 2px 3px;
+    }
+    .thirteen {
+        background-color: #2ade57;
+    }
+    .fourteen {
+        background-color: #f3d1f4;
+    }
+    .fifteen {
+        background-color: #fe346e;
+    }
+    .sixteen {
+        background-color: #d2fafb;
+    }
+    .seventeen {
+        background-color: #481380;
+    }
+    .eighteen {
+        background-color: #2ade57;
+    }
+    .nineteen {
+        background-color: #ffb6b6;
+    }
+    .twenty {
+        background-color: #f3c623;
+    }
+    .twentyOne {
+        background-color: #856c8b;
+    }
+    .twentytwo {
+        background-color: #481380;
+    }
+    .twentythree {
+        background-color: #fe346e;
+    }
+    .twentyfour {
+        background-color: #75daad;
+    }
+    .imgOne {
+        visibility: hidden;
+    }
+    .imgTwo {
+        visibility: hidden;
+    }
+    .imgThree {
+        visibility: hidden;
+    }
+    .imgFour {
+        visibility: hidden;
+    }
+    .imgFive {
+        visibility: hidden;
+    }
+    .imgSix {
+        visibility: hidden;
+    }
+    .imgSeven {
+        visibility: hidden;
+    }
+    .imgEight {
+        visibility: hidden;
+    }
+    .imgNine {
+        visibility: hidden;
+    }
+    .imgTen {
+        visibility: hidden;
+    }
+    .imgEleven {
+        visibility: hidden;
+    }
+    .imgTwelve {
+        visibility: hidden;
+    }
+    #imgThirteen {
+        background-color: whitesmoke;
+        visibility: visible;
+    }
+    #imgFourteen {
+        background-color: whitesmoke;
+        visibility: visible;
+    }
+    #imgFifteen {
+        background-color: whitesmoke;
+        visibility: visible;
+    }
+    #imgSixteen {
+        background-color: whitesmoke;
+        visibility: visible;
+    }
+    #imgSeventeen {
+        background-color: whitesmoke;
+        visibility: visible;
+    }
+    #imgEighteen {
+        background-color: whitesmoke;
+        visibility: visible;
+    }
+    #imgNineteen {
+        background-color: whitesmoke;
+        visibility: visible;
+    }
+    #imgTwenty {
+        background-color: whitesmoke;
+        visibility: visible;
+    }
+    #imgTwentyOne {
+        background-color: whitesmoke;
+        visibility: visible;
+    }
+    #imgTwentytwo {
+        background-color: whitesmoke;
+        visibility: visible;
+    }
+    #imgTwentythree {
+        background-color: whitesmoke;
+        visibility: visible;
+    }
+    #imgTwentyfour {
+        background-color: whitesmoke;
+        visibility: visible;
+    }
+    .one:hover {
+        opacity: 0.7;
+    }
+    .two:hover {
+        opacity: 0.7;
+    }
+    .three:hover {
+        opacity: 0.7;
+    }
+    .four:hover {
+        opacity: 0.7;
+    }
+    .five:hover {
+        opacity: 0.7;
+    }
+    .six:hover {
+        opacity: 0.7;
+    }
+    .seven:hover {
+        opacity: 0.7;
+    }
+    .eight:hover {
+        opacity: 0.7;
+    }
+    .nine:hover {
+        opacity: 0.7;
+    }
+    .ten:hover {
+        opacity: 0.7;
+    }
+    .eleven:hover {
+        opacity: 0.7;
+    }
+    .twelve:hover {
+        opacity: 0.7;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    @import url('https://fonts.googleapis.com/css?family=Poppins');
+    html,
+    body {
+        height: 100%;
+        font-size: 16px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 10px;
+        padding: 10px;
+        margin-bottom: 3rem;
+        font-family: 'Poppins', sans-serif;
+        text-shadow: 0.5px 0.50px 2px darkslategray;
+        color: darkslategray;
+        background-color: #e5e8e8;
+        background-image: url('../image/bg-intro-mobile.png');
+    }
+    img {
+        width: 30vw;
+        height: 10vh;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: auto repeat(2, 30vw) auto;
+        grid-template-rows: auto repeat(6, 10vh) auto;
+        height: 70vh;
+        background-color: #d7bde2;
+        padding: 10vh 5vh 10vh 5vh;
+        grid-gap: 5px;
+        opacity: 0.7;
+        border-radius: 1vw;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    }
+    .one {
+        grid-column: 2 /span 1;
+        grid-row: 2 / span 1;
+    }
+    .two {
+        grid-column: 3 / span 1;
+        grid-row: 2 / span 1;
+    }
+    .three {
+        grid-column: 2/ span 1;
+        grid-row: 3 / span 1;
+    }
+    .four {
+        grid-column: 3 /span 1;
+        grid-row: 3 / span 1;
+    }
+    .five {
+        grid-column: 2 / span 1;
+        grid-row: 4 / span 1;
+    }
+    .six {
+        grid-column: 3/ span 1;
+        grid-row: 4 / span 1;
+    }
+    .seven {
+        grid-column: 2 /span 1;
+        grid-row: 5 /span 1;
+    }
+    .eight {
+        grid-column: 3 / span 1;
+        grid-row: 5 /span 1;
+    }
+    .nine {
+        grid-column: 2/ span 1;
+        grid-row: 6 /span 1;
+    }
+    .ten {
+        grid-column: 3/ span 1;
+        grid-row: 6 /span 1;
+    }
+    .eleven {
+        grid-column: 2/ span 1;
+        grid-row: 7 /span 1;
+    }
+    .twelve {
+        grid-column: 3/ span 1;
+        grid-row: 7 /span 1;
+    }
+    .thirteen {
+        height: 100%;
+        width: 100%;
+        background-color: #2ade57;
+    }
+    .fourteen {
+        background-color: #f3d1f4;
+    }
+    .fifteen {
+        background-color: #fe346e;
+    }
+    .sixteen {
+        background-color: #d2fafb;
+    }
+    .seventeen {
+        background-color: #481380;
+    }
+    .eighteen {
+        background-color: #2ade57;
+    }
+    .nineteen {
+        background-color: #ffb6b6;
+    }
+    .twenty {
+        background-color: #f3c623;
+    }
+    .twentyOne {
+        background-color: #856c8b;
+    }
+    .twentytwo {
+        background-color: #481380;
+    }
+    .twentythree {
+        background-color: #fe346e;
+    }
+    .twentyfour {
+        background-color: #75daad;
+    }
+    .imgOne {
+        visibility: hidden;
+    }
+    .imgTwo {
+        visibility: hidden;
+    }
+    .imgThree {
+        visibility: hidden;
+    }
+    .imgFour {
+        visibility: hidden;
+    }
+    .imgFive {
+        visibility: hidden;
+    }
+    .imgSix {
+        visibility: hidden;
+    }
+    .imgSeven {
+        visibility: hidden;
+    }
+    .imgEight {
+        visibility: hidden;
+    }
+    .imgNine {
+        visibility: hidden;
+    }
+    .imgTen {
+        visibility: hidden;
+    }
+    .imgEleven {
+        visibility: hidden;
+    }
+    .imgTwelve {
+        visibility: hidden;
+    }
+    #imgThirteen {
+        background-color: whitesmoke;
+        visibility: visible;
+    }
+    #imgFourteen {
+        background-color: whitesmoke;
+        visibility: visible;
+    }
+    #imgFifteen {
+        background-color: whitesmoke;
+        visibility: visible;
+    }
+    #imgSixteen {
+        background-color: whitesmoke;
+        visibility: visible;
+    }
+    #imgSeventeen {
+        background-color: whitesmoke;
+        visibility: visible;
+    }
+    #imgEighteen {
+        background-color: whitesmoke;
+        visibility: visible;
+    }
+    #imgNineteen {
+        background-color: whitesmoke;
+        visibility: visible;
+    }
+    #imgTwenty {
+        background-color: whitesmoke;
+        visibility: visible;
+    }
+    #imgTwentyOne {
+        background-color: whitesmoke;
+        visibility: visible;
+    }
+    #imgTwentytwo {
+        background-color: whitesmoke;
+        visibility: visible;
+    }
+    #imgTwentythree {
+        background-color: whitesmoke;
+        visibility: visible;
+    }
+    #imgTwentyfour {
+        background-color: whitesmoke;
+        visibility: visible;
+    }
+    .one:hover {
+        opacity: 0.7;
+    }
+    .two:hover {
+        opacity: 0.7;
+    }
+    .three:hover {
+        opacity: 0.7;
+    }
+    .four:hover {
+        opacity: 0.7;
+    }
+    .five:hover {
+        opacity: 0.7;
+    }
+    .six:hover {
+        opacity: 0.7;
+    }
+    .seven:hover {
+        opacity: 0.7;
+    }
+    .eight:hover {
+        opacity: 0.7;
+    }
+    .nine:hover {
+        opacity: 0.7;
+    }
+    .ten:hover {
+        opacity: 0.7;
+    }
+    .eleven:hover {
+        opacity: 0.7;
+    }
+    .twelve:hover {
+        opacity: 0.7;
+    }
+}
